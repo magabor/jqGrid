@@ -12,6 +12,7 @@ module.exports = {
         contentBase: path.resolve(__dirname,'lib'),
         contentBasePublicPath: '/'
     },
+    devtool: 'source-map',
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
